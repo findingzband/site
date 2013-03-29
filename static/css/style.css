@@ -1,0 +1,341 @@
+/*** Start Custom Styles ***/
+
+/* Main */
+html { overflow:auto; }
+body {
+    background-color:#181818;
+    margin:0 auto;
+    position:relative;
+    text-align:center;
+}
+body, p, h1, h2, h3, h4, h5, h6, a, thead, th, td, ol, ul, li, dt, dd, sub, sup, label, fieldset, form {
+    color:#6FC334;
+    cursor:default;
+    font-family:"Lucida Grande", "Segoe UI", Arial, Verdana, sans-serif;
+    font-size:9pt;
+    font-weight:normal;
+    letter-spacing:0.25px;
+    line-height:120%;
+}
+body, select, input, textarea {  color:#6FC334; }
+a, a:active, a:visited { color:#6FC334; }
+a:hover { color:#80DC3C; cursor:pointer;}
+#background h1 {
+    display:block;
+    margin:0px;
+    text-indent:-9999px;
+}
+#background {
+    background-image:url("../images/background.png");
+    background-repeat:no-repeat;
+    height:400px;
+    margin:0 auto;
+    width:650px;
+	
+}
+
+#bookus {
+    background-image:url("../images/bookus.gif");
+    border:0px;
+    cursor:pointer;
+    display:inline-block;
+    height:150px;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    right:0px;
+    top:0px;
+    width:150px;
+}
+
+/* Nav */
+#navWrapper {
+    height:80px;
+    margin:0 auto;
+    position:relative;
+    top:-70px;
+    width:650px; 
+    display:inline-block;
+    z-index:10;
+}
+nav div {
+    cursor:pointer;
+    display:inline-block;
+    height:32px;
+    text-align:center;
+    width:32px;
+    -moz-opacity:.40;
+    filter:alpha(opacity=40);
+    opacity:.40;
+    -webkit-transition:opacity .2s ease-in-out;
+	   -moz-transition:opacity .2s ease-in-out;
+	     -o-transition:opacity .2s ease-in-out;
+	       -transition:opacity .2s ease-in-out;
+}
+nav div:hover {
+    -moz-opacity:1.0;
+    filter:alpha(opacity=100);
+    opacity:1.0;
+}
+
+.facebook   { background:url("../images/social/facebook.png") no-repeat; }
+.twitter    { background:url("../images/social/twitter-2.png") no-repeat; }
+.googleplus { background:url("../images/social/googleplus.png") no-repeat; }
+.flickr     { background:url("../images/social/flickr.png") no-repeat; }
+.youtube    { background:url("../images/social/youtube.png") no-repeat; }
+.aboutme    { background:url("../images/social/aboutme.png") no-repeat; }
+.onesheet   { background:url("../images/social/onesheet.png") no-repeat; }
+.mtv        { background:url("../images/social/mtv.png") no-repeat; }
+.soundofffm { background:url("../images/social/soundofffm.png") no-repeat; }
+.bandcamp   { background:url("../images/social/bandcamp.png") no-repeat; }
+.lastfm     { background:url("../images/social/lastfm.png") no-repeat; }
+.spotify    { background:url("../images/social/spotify.png") no-repeat; }
+.github     { background:url("../images/social/github.png") no-repeat; }
+.itunes     { background:url("../images/social/itunes.png") no-repeat; }
+.amazon     { background:url("../images/social/amazon.png") no-repeat; }
+.googleplay { background:url("../images/social/googleplay.png") no-repeat; }
+.calendar   { background:url("../images/social/calendar.png") no-repeat; }
+.email      { background:url("../images/social/email.png") no-repeat; }
+
+/* Aside Wrappers */
+#toggleAsideWrapper, #fanPlayerWrapper, #photosWrapper {
+    margin:0 auto;
+    position:relative;
+    width:650px;
+    z-index:10;
+}
+#toggleAsideWrapper { height:25px; top:-95px; width:200px; }
+#fanPlayerWrapper   { height:100px; top:-100px; width:650px; }
+#photosWrapper      { height:100px; top:-100px; width:562px; }
+
+/* Asides */
+#fans {
+    background:#000000;
+    border-bottom:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+    border-top:1px solid #CCCCCC;
+    display:block;
+    float:left;
+    height:80px;
+    position:relative;
+    width:320px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+#logo {
+    background:url("../images/logo.png") no-repeat left top;
+    border:none;
+    cursor:pointer;
+    height:60px;
+    left:0px;
+    margin:10px;
+    position:absolute;
+    width:60px;
+}
+#fansLink {
+    left:80px;
+    position:absolute;
+    top:18px;
+}
+#fansLink a { font-size:9.5pt; }
+#fansButton {
+    bottom:4px;
+    left:80px;
+    position:absolute;
+}
+#player {
+    background:#000000;
+    border-bottom:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+    border-top:1px solid #CCCCCC;
+    display:block;
+    float:right;
+    height:80px;
+    position:relative;
+    width:320px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.album {
+    /*background:url("../images/album.png") no-repeat left top;*/
+    border:none;
+    cursor:pointer;
+    height:60px;
+    left:0px;
+    margin:10px;
+    position:absolute;
+    width:60px;
+}
+.previous {
+    background:url("../images/player.png") no-repeat -90px 0;
+    cursor:pointer;
+    height:30px;
+    left:75px;
+    position:absolute;
+    top:15px;
+    width:30px;
+}
+.playtoggle {
+    background:url("../images/player.png") no-repeat -30px 0;
+    cursor:pointer;
+    height:30px;
+    left:96px;
+    position:absolute;
+    top:15px;
+    width:30px;
+}
+.playtoggle.playing {
+    background-position:0 0;
+}
+.next {
+    background:url("../images/player.png") no-repeat -120px 0;
+    cursor:pointer;
+    height:30px;
+    left:119px;
+    position:absolute;
+    top:15px;
+    width:30px;
+}
+.previous:active, .playtoggle:active, .next:active {
+    top:16px;
+}
+.trackname {
+    left:150px;
+    position:absolute;
+    top:22px;
+}
+.amazonLink {
+    height:24px;
+    position:absolute;
+    right:10px;
+    top:20px;
+    width:24px;
+}
+.timeleft {
+    position:absolute;
+    right:10px;
+    text-align:right;
+    text-indent:5px;
+    top:48px;
+    width:55px;
+}
+.gutter {
+    background:#6FC334;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#242f3b), to(#6FC334));
+    background:-moz-linear-gradient(top, #242f3b, #6FC334);
+    background:linear-gradient(top, #242f3b, #6FC334);
+    height:6px;
+    left:85px;
+    padding:2px;
+    position:absolute;
+    right:60px;
+    top:50px;
+    -webkit-border-radius:5px;
+       -moz-border-radius:5px;
+         -o-border-radius:5px;
+            border-radius:5px;
+}
+.loading {
+    background:#939eaa;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#242f3b), to(#6FC334));
+    background:-moz-linear-gradient(top, #242f3b, #6FC334);
+    background:linear-gradient(top, #242f3b, #6FC334);
+    display:block;
+    float:left;
+    height:6px;
+    min-width:6px;
+    -webkit-border-radius:3px;
+       -moz-border-radius:3px;
+         -o-border-radius:3px;
+            border-radius:3px;
+}
+.handle {
+    background:url("../images/player.png") no-repeat -65px -5px;
+    cursor:pointer;
+    height:20px;
+    left:0;
+    margin-left:-10px;
+    position:absolute;
+    top:-5px;
+    width:20px;
+}
+#photosArtwork, #photosLive, #photosPromotional {
+    background:#000000;
+    border-bottom:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #666666;
+    border-top:1px solid #CCCCCC;
+    display:block;
+    float:left;
+    position:relative;
+    width:173px;
+    -webkit-border-radius:5px;
+       -moz-border-radius:5px;
+         -o-border-radius:5px;
+            border-radius:5px;
+}
+#photosLive {
+    margin: 0px 5px;
+}
+.photosetTitle {
+    margin-bottom:5px;
+    display:block;
+}
+
+/* Footer */
+footer {
+    bottom:0;
+    color:#444444;
+    cursor:pointer;
+    font-size:8pt;
+    padding:5px 0;
+    position:fixed;
+    text-align:center;
+    width:100%;
+}
+footer:hover {
+    color:#666666;
+}
+
+/* Tipsy Tooltips */
+.tipsy {
+    font-size:10px;
+    padding:5px;
+    position:absolute;
+    z-index:100000;
+}
+.tipsy-inner {
+    background-color:black;
+    color:white;
+/*     max-width:200px; */
+    padding:2px 6px 1px 6px;
+    text-align:center;
+}
+.tipsy-inner {
+    -webkit-border-radius:3px;
+       -moz-border-radius:3px;
+         -o-border-radius:3px;
+            border-radius:3px;
+}
+.tipsy-arrow {
+    background:url("../images/tipsy.gif") top left no-repeat;
+    height:5px;
+    position:absolute;
+    width:9px;
+}
+.tipsy-n .tipsy-arrow { top:0; left:50%; margin-left:-4px; }
+.tipsy-nw .tipsy-arrow { top:0; left:10px; }
+.tipsy-ne .tipsy-arrow { top:0; right:10px; }
+.tipsy-s .tipsy-arrow { bottom:0; left:50%; margin-left:-4px; background-position:bottom left; }
+.tipsy-sw .tipsy-arrow { bottom:0; left:10px; background-position:bottom left; }
+.tipsy-se .tipsy-arrow { bottom:0; right:10px; background-position:bottom left; }
+.tipsy-e .tipsy-arrow { top:50%; margin-top:-4px; right:0; width:5px; height:9px; background-position:top right; }
+.tipsy-w .tipsy-arrow { top:50%; margin-top:-4px; left:0; width:5px; height:9px; }
+
+/*** End Custom Styles ***/

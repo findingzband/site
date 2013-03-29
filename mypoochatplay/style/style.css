@@ -1,0 +1,139 @@
+img {
+border:none;
+}
+
+.sans {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #BADC49;
+}
+body,td,th {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+}
+.sans tr th blockquote h4 {
+	font-size: 12px;
+	color: #FFF;
+	text-align: right;
+}
+body {
+	margin-top: 0px;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #333;
+	text-align: center;
+}
+.contact {
+	text-align: left;
+	font-size: 36px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #000;
+}
+.contact .contact {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+.bdy {
+	color: #2B77AF;
+	font-size: 36px;
+	text-align: right;
+}
+top {
+	font-size: 36px;
+}
+span {
+	color: #FFF;
+}
+.sans tr th .contact {
+	color: #FFF;
+}
+.sans tr th .contact {
+	font-size: 30px;
+}
+.sans tr th .contact {
+	color: #1E5371;
+}
+.doggiedaycare {
+	font-size: 14px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-weight: normal;
+}
+.Pooch {
+	color: #C3E35E;
+	text-align: center;
+	font-size: 12px;
+}
+.contact .contact {
+	text-align: center;
+	font-weight: normal;
+}
+.copyright {
+	font-size: 9px;
+	color: #4789BD;
+}
+.justimagine {
+	font-weight: bold;
+	font-size: 20px;
+	color: #2B77AF;
+}
+.mainbody {
+	color: #000;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 14px;
+}
+#enrollment {
+text-align: center;
+color: #666666;
+font-size: 14px;
+}
+
+a:link {
+	color: #B9DD4C;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #B9DD4C;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+#contact {
+	width: 265px;
+	text-align: center;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background-color: #2B77AF;
+	color: #FFF;
+}
+#contact > h1 {
+	font-size: 24px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #B9DD4C;
+	text-align: center;
+	font-weight: bold;
+}
+#contact > p {
+	color: #C3E35E;
+	text-align: center;
+	font-size: 14px;
+}
+
+#contact > #contactLinks {
+	text-align: center;
+}
+#sidebar_ad {
+	margin-right: 46px;
+	margin-left: 46px;
+}

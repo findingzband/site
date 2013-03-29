@@ -1,0 +1,40 @@
+/* BAND */
+  Vocals: Dan Swiss
+  Project Role: Finances, Public Relations
+  Contact: dan [at] findingz.com
+  From: West Lafayette, Indiana, United States
+
+  Guitar: Brett Davis
+  Project Role: Website Developer
+  Contact: brett [at] findingz.com
+  From: Chicago, Illinois, United States
+
+  Bass: Christopher Miller
+  Project Role: Website Designer & Developer
+  Contact: chris [at] findingz.com
+  Twitter: @christophermllr
+  Website: christophermiller.me
+  From: Chicago, Illinois, United States
+
+  Drums & Vocals: Brent Beachler
+  Project Role: Website Developer
+  Contact: brent [at] findingz.com
+  Twitter: @babeachler
+  From: West Lafayette, Indiana, United States
+
+  Ryan Johnson
+  Project Role: Graphic Designer
+  From: Tulsa, Oklahoma, United States
+  
+  Adam Merkel
+  Project Role: Manager
+  Contact: booking [at] findingz.com
+  Twitter: @atmerkel
+  From: Chicago, Illinois, United States
+
+/* SITE */
+  Last update: 2012/12/20
+  Language: English
+  Standards: HTML5, CSS3
+  Tools: HTML5 Boilerplate, jQuery, jQuery UI
+  Hosting: GoDaddy

@@ -1,0 +1,25 @@
+#tabNow .ui-icon {
+	background: url(images/now.png) no-repeat;
+}
+	#tabNow.ui-btn-active .ui-icon {
+		background: url(images/now.png) no-repeat;
+	}
+#tabConnect .ui-icon {
+	background: url(images/connect.png) no-repeat;
+}
+	#tabConnect.ui-btn-active .ui-icon {
+		background: url(images/connect.png) no-repeat;
+	}
+#tabAbout .ui-icon {
+	background: url(images/info.png) no-repeat;
+}
+	#tabAbout.ui-btn-active .ui-icon {
+		background: url(images/info.png) no-repeat;
+	}
+#tabStore .ui-icon {
+	background: url(images/shop.png) no-repeat;
+}
+	#tabStore.ui-btn-active .ui-icon {
+		background: url(images/shop.png) no-repeat;
+	}
+		
