@@ -215,9 +215,7 @@ $(document).ready(function() {
         
         for (var i=0; i<config.albums.length; i++) {
             
-            var album = config.albums[i];
-            
-            deferreds.push($.getJSON('http://api.bandcamp.com/api/album/1/info?key='+config.bandcamp_api_key+'&album_id='+album.id+'&callback=?', function(returnData) {
+            deferreds.push($.getJSON('http://api.bandcamp.com/api/album/1/info?key='+config.bandcamp_api_key+'&album_id='+config.albums[i].id+'&callback=?', function(returnData) {
                 
                 var albumTracks = [];
                             
@@ -232,7 +230,7 @@ $(document).ready(function() {
                     albumTracks.push(temp);
                 });
                             
-                if (album.shuffle)
+                if (config.albums[i].shuffle)
                     albumTracks.sort(function() { return Math.round(Math.random())-0.5; });
                 
                 tracks = tracks.concat(albumTracks);
