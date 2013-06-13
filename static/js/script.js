@@ -2,7 +2,7 @@ var tracks = [];
 var current = 0;
 var config = {
     bandcamp_api_key: "droghagspakrrynavortishegnir",
-    albums: [{id: "1223951139", shuffle: false}, {id: "2630216186", shuffle: true}],
+    albums: ["1223951139","2630216186"],
     bandcamp_url: "http://music.findingz.com",
     amazon_url: "http://www.amazon.com/gp/product/",
     amazon_tracks: {
@@ -215,7 +215,7 @@ $(document).ready(function() {
         
         for (var i=0; i<config.albums.length; i++) {
             
-            deferreds.push($.getJSON('http://api.bandcamp.com/api/album/1/info?key='+config.bandcamp_api_key+'&album_id='+config.albums[i].id+'&callback=?', function(returnData) {
+            deferreds.push($.getJSON('http://api.bandcamp.com/api/album/1/info?key='+config.bandcamp_api_key+'&album_id='+config.albums[i]+'&callback=?', function(returnData) {
                 
                 var albumTracks = [];
                             
@@ -230,9 +230,7 @@ $(document).ready(function() {
                     albumTracks.push(temp);
                 });
                             
-                if (config.albums[i].shuffle)
-                    albumTracks.sort(function() { return Math.round(Math.random())-0.5; });
-                
+                albumTracks.sort(function() { return Math.round(Math.random())-0.5; });
                 tracks = tracks.concat(albumTracks);
             }));
         }
