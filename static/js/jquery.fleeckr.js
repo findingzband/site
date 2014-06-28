@@ -9,7 +9,7 @@
 (function($) {
 	$.fn.jfleeckr = function(settings, callback) {
 		settings = $.extend(true, {
-			flickr: 'http://api.flickr.com/services/',
+			flickr: 'https://api.flickr.com/services/',
 			kind: 'rest',
 			limit: 20,
 			apikey: '',
