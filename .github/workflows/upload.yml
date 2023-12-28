@@ -14,3 +14,4 @@ jobs:
         server: giow27.siteground.us
         username: brett@findingz.com
         password: ${{ secrets.ftp_password }}
+        server-dir: findingz.com/public_html/
